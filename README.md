@@ -49,6 +49,23 @@ A list of tested environements follows:
 Current support for verilated components is partial as Verilator 4.x presents inconsistent behaviours when driving internal signals. This cause an unpredictable behaviour of **EMBER** saboteurs for verilated components.
 Driving internal signals is highly simplified from Verilator 5.x and further, however newer versions of Verilator are currently untested.
 
+## Cite Us
+
+If you use **EMBER** for your paper, please acknowledge our work:
+
+```
+@INPROCEEDINGS{ember,
+  author={Veronesi, Alessandro and Bolzani P\"{o}hls, Leticia Maria and Favalli, Michele and Krstic, Milos and Bertozzi, Davide},
+  booktitle={2025 IEEE Asian Test Symposium (ATS)}, 
+  title={EMBER: A Cycle-based Framework for Early-Stage Reliability Assessment in Parametric RTL Designs}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Fault Injection Simulations, RTL Simulations, Reliability, Mission-Critical Systems, CAD},
+  doi={}}
+```
+
 ## Credits
 
 We thank [Giovanni Veronesi](https://www.instagram.com/giovanissimogiovanni/) for the EMBER logo and graphics (available in the `doc/pictures` folder).
